@@ -1,0 +1,35 @@
+# Dulce Estacion - Ejercicio 4
+
+Programa en Java del sistema de alquiler de maquinas de dulces (palomitas, algodon de azucar y fuente de chocolate).
+
+## Archivos
+- Maquina.java (clase abstracta)
+- MaquinaPalomitas.java
+- MaquinaAlgodonAzucar.java
+- FuenteChocolate.java
+- Inventario.java
+- Aplicacion.java (aqui esta el main)
+
+## Como correrlo
+
+Necesitas tener Java instalado (javac -version para checar).
+
+1. Entrar a la carpeta:
+```
+cd "C:\Users\tmonr\Downloads\2do semestre\POO\ejercicio4"
+```
+
+2. Compilar:
+```
+javac *.java
+```
+
+3. Ejecutar:
+```
+java Aplicacion
+```
+
+Y ya, sale el menu y de ahi se usa normal (registrar maquina, cotizar, alquilar, devolver, ver reporte, salir).
+
+## Nota
+Inventario tiene un metodo getMaquinas() que no estaba en el UML pero lo tuve que agregar para poder listar el inventario y hacer el reporte, si no no hay forma de sacar esos datos.
